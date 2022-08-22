@@ -11,13 +11,29 @@ body{
 
 .navbar{
     background-color: #E0DE9F;
-    height: 9vh;
+    height: 12vh;
     margin-top: 1vh;
+    padding-bottom: 2rem;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+    margin: 1% 35%;
+    width: 40%;
+    color: #949270;
+}
+
+.elefantito{
+    height: 200%;
+    position: relative;
+    bottom: 9rem;
+    left: 36rem;
 }
 
 main{
     display: flex;
-    padding: 4% 9%;
+    padding: 4% 9% 0;
 }
 
 section{
@@ -38,6 +54,12 @@ section{
     font-family: 'Righteous', cursive;
     font-size: xx-large;
     color: antiquewhite;
+}
+
+.encriptedMsg textarea{
+    background:  url("images/pngegg1.png") no-repeat, #E09FA8;
+    background-size: 50%;
+    background-position: center;
 }
 
 .buttons{
@@ -61,12 +83,19 @@ button img{
 }
 
 .social{
-    display: flex;
-    margin-right: 3vh;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 30vh;
+    display: inline-block;
+    bottom: 50vh;
+}
+
+.social .linkedin{
+    margin-left: 45vw;
+}
+
+.linkedin, .github{
+    background-color: #E0DE9F;
+    border: 1px solid #E0DE9F;
+    border-radius: 50%;
+    padding: 21px
 }
 
 footer{

@@ -17,7 +17,7 @@ body{
 
 main{
     display: flex;
-    padding: 6% 9%;
+    padding: 4% 9%;
 }
 
 section{
@@ -54,4 +54,21 @@ button{
     font-family: 'Righteous', cursive;
     font-size: large;
     color: #949270;
+}
+
+button img{
+    height: 5vh;
+}
+
+.social{
+    display: flex;
+    margin-right: 3vh;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 30vh;
+}
+
+footer{
+    height: 1px;
 }

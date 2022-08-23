@@ -24,11 +24,11 @@ h1{
     color: #949270;
 }
 
-.elefantito{
+.candado_logo{
     height: 200%;
     position: relative;
-    bottom: 9rem;
-    left: 36rem;
+    bottom: 10rem;
+    left: 30rem;
 }
 
 main{
@@ -57,8 +57,8 @@ section{
 }
 
 .encriptedMsg textarea{
-    background:  url("images/pngegg1.png") no-repeat, #E09FA8;
-    background-size: 50%;
+    background:  url("images/lock.png") no-repeat, #E09FA8;
+    background-size: 100%;
     background-position: center;
 }
 

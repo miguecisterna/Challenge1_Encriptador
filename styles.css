@@ -16,10 +16,20 @@ body{
     padding-bottom: 2rem;
 }
 
+a .logo_alura{
+    display: inline-block;
+    height: 6vh;
+    position: relative;
+    left: 6vw;
+    top: 4.5vh;
+}
+
 h1{
+    position: relative;
+    bottom: 3vh;
     font-family: 'Righteous', cursive;
     font-size: 4rem;
-    margin: 1% 35%;
+    margin: 1% 40%;
     width: 40%;
     color: #949270;
 }
@@ -27,8 +37,8 @@ h1{
 .candado_logo{
     height: 200%;
     position: relative;
-    bottom: 10rem;
-    left: 30rem;
+    bottom: 13rem;
+    left: 37rem;
 }
 
 main{
@@ -54,6 +64,8 @@ section{
     font-family: 'Righteous', cursive;
     font-size: xx-large;
     color: antiquewhite;
+    border: none;
+    outline: none;
 }
 
 .encriptedMsg textarea{
@@ -88,7 +100,7 @@ button img{
 }
 
 .social .linkedin{
-    margin-left: 45vw;
+    margin-left: 33vw;
 }
 
 .linkedin, .github{
@@ -100,4 +112,13 @@ button img{
 
 footer{
     height: 1px;
+}
+
+footer p{
+    display: inline-block;
+    bottom: 9vh;
+    color: #E0DE9F;
+    font-family:'Righteous', cursive;
+    position: relative;
+    left: 45vw;
 }

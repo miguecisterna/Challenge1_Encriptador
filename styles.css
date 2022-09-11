@@ -96,14 +96,24 @@ button img{
 
 .social{
     display: inline-block;
-    bottom: 50vh;
+    position: absolute;
+    top: 85vh;
 }
 
 .social .linkedin{
-    margin-left: 33vw;
+    margin-left: 28vw;
 }
 
-.linkedin, .github{
+.linkedin{
+    background-color: #E0DE9F;
+    border: 1px solid #E0DE9F;
+    border-radius: 50%;
+    padding: 21px
+}
+
+.github{
+    position: absolute;
+    left: 33vw;
     background-color: #E0DE9F;
     border: 1px solid #E0DE9F;
     border-radius: 50%;
@@ -116,9 +126,226 @@ footer{
 
 footer p{
     display: inline-block;
-    bottom: 9vh;
+    top: 4vh;
     color: #E0DE9F;
     font-family:'Righteous', cursive;
     position: relative;
-    left: 45vw;
+    left: 42vw;
+}
+
+@media (max-width: 768px) {
+    main{
+        padding: 7vh 0;
+    }
+    
+    a .logo_alura {
+        display: inline-block;
+        height: 6vh;
+        position: relative;
+        left: 7vw;
+        top: 4.5vh;
+    }
+
+    h1 {
+        position: relative;
+        bottom: -1vh;
+        left: 40vw;
+        font-family: 'Righteous', cursive;
+        font-size: 2rem;
+        margin: 0;
+        width: 40%;
+        color: #949270;
+    }
+
+    .candado_logo {
+        height: 150%;
+        position: relative;
+        bottom: 5rem;
+        left: 11rem;
+    }
+
+    .textInput textarea, .encriptedMsg textarea {
+        background-color: #E09FA8;
+        vertical-align: bottom;
+        font-family: 'Righteous', cursive;
+        font-size: 1.01rem;
+        color: antiquewhite;
+        border: none;
+        outline: none;
+    }   
+
+    .encripted {
+        position: absolute;
+        top: 113vh;
+        left: 2.5vw;   
+    }
+
+    footer p {
+        display: inline-block;
+        bottom: -76vh;
+        color: #E0DE9F;
+        font-family: 'Righteous', cursive;
+        position: relative;
+        left: 9vw;
+    }
+
+    .social {
+        position: absolute;
+        top: 178vh;
+        left: 18vw;
+    }
+
+    .github {
+        position: absolute;
+        top: 0vw;
+        left: 3vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar{
+        background-color: #E0DE9F;
+        width: 260vw;
+        height: 12vh;
+        margin-top: 1vh;
+        padding-bottom: 2rem;
+    }
+
+    .logo_alura {
+        display: inline-block;
+        height: 6vh;
+        position: relative;
+        left: 12vw;
+        top: 4.5vh;
+    }
+
+    h1 {
+        position: relative;
+        bottom: -3vh;
+        left: 36vw;
+        font-family: 'Righteous', cursive;
+        font-size: 2rem;
+        margin: 0;
+        width: 40%;
+        color: #949270;
+    }
+
+    .candado_logo {
+        height: 150%;
+        position: relative;
+        bottom: 6rem;
+        left: 8rem;
+    }
+
+    section{
+        max-width: 100%;
+    }
+
+    .textInput textarea, .encriptedMsg textarea{
+        background-color: #E09FA8;
+        vertical-align: bottom;
+        font-family: 'Righteous', cursive;
+        font-size: 1.2rem;
+        color: antiquewhite;
+        border: none;
+        outline: none;
+    }
+
+    .encripted{
+        position: absolute;
+        top: 118vh;       
+    }
+
+    footer p {
+        display: inline-block;
+        bottom: -85vh;
+        color: #E0DE9F;
+        font-family: 'Righteous', cursive;
+        position: relative;
+        left: 27vw;
+    }
+
+    .social{
+        position: absolute;
+        top: 150vh;
+        left: 50vw;
+    }
+
+    .github{
+        position: absolute;
+        top: 15vh;
+        left: 29.2vw;
+    }
+    
+
+    
+  }
+
+  @media (max-width: 360px) {
+    main{
+        padding: 7vh 0;
+    }
+    
+    a .logo_alura {
+        display: inline-block;
+        height: 6vh;
+        position: relative;
+        left: 7vw;
+        top: 4.5vh;
+    }
+
+    h1 {
+        position: relative;
+        bottom: -1vh;
+        left: 40vw;
+        font-family: 'Righteous', cursive;
+        font-size: 2rem;
+        margin: 0;
+        width: 40%;
+        color: #949270;
+    }
+
+    .candado_logo {
+        height: 150%;
+        position: relative;
+        bottom: 6rem;
+        left: 4rem;
+    }
+
+    .textInput textarea, .encriptedMsg textarea {
+        background-color: #E09FA8;
+        vertical-align: bottom;
+        font-family: 'Righteous', cursive;
+        font-size: 1.01rem;
+        color: antiquewhite;
+        border: none;
+        outline: none;
+    }   
+
+    .encripted {
+        position: absolute;
+        top: 113vh;
+        left: 2.5vw;   
+    }
+
+    footer p {
+        display: inline-block;
+        bottom: -76vh;
+        color: #E0DE9F;
+        font-family: 'Righteous', cursive;
+        position: relative;
+        left: 9vw;
+    }
+
+    .social {
+        position: absolute;
+        top: 178vh;
+        left: 18vw;
+    }
+
+    .github {
+        position: absolute;
+        top: 0vw;
+        left: 3vw;
+    }
 }

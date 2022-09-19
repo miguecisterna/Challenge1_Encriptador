@@ -136,6 +136,7 @@ footer p{
 @media (max-width: 768px) {
     main{
         padding: 7vh 0;
+        display: block;
     }
     
     a .logo_alura {
@@ -149,7 +150,7 @@ footer p{
     h1 {
         position: relative;
         bottom: -1vh;
-        left: 40vw;
+        left: 48vw;
         font-family: 'Righteous', cursive;
         font-size: 2rem;
         margin: 0;
@@ -160,45 +161,53 @@ footer p{
     .candado_logo {
         height: 150%;
         position: relative;
-        bottom: 5rem;
-        left: 11rem;
+        bottom: 7rem;
+        left: 16rem;
     }
 
     .textInput textarea, .encriptedMsg textarea {
         background-color: #E09FA8;
         vertical-align: bottom;
         font-family: 'Righteous', cursive;
-        font-size: 1.01rem;
+        font-size: 2.85rem;
         color: antiquewhite;
         border: none;
         outline: none;
     }   
 
+    section{
+        margin: 0 10%;
+        padding-top: 1%;
+        background-color: #E0DE9F;
+        border-radius: 30px;
+    }
+
     .encripted {
         position: absolute;
-        top: 113vh;
-        left: 2.5vw;   
+        top: 105vh;
+        left: 4vw;   
     }
 
     footer p {
+        padding-bottom: 5vh;
         display: inline-block;
-        bottom: -76vh;
+        top: 79vh;
         color: #E0DE9F;
-        font-family: 'Righteous', cursive;
+        font-family: 'Righteous';
         position: relative;
-        left: 9vw;
+        left: 28vw;
     }
 
     .social {
         position: absolute;
-        top: 178vh;
-        left: 18vw;
+        top: 169vh;
+        left: 58vw;
     }
 
     .github {
         position: absolute;
-        top: 0vw;
-        left: 3vw;
+        bottom: 1vh;
+        left: 26vw;
     }
 }
 

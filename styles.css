@@ -133,6 +133,7 @@ footer p{
     left: 42vw;
 }
 
+
 @media (max-width: 768px) {
     main{
         padding: 7vh 0;

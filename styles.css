@@ -107,3 +107,52 @@ p {
   color: var(--color-d);
   font-family: var(--fuente-a);
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: var(--color-a);
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  section {
+    background-color: var(--color-d);
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 33px;
+    display: flex;
+    flex-direction: column;
+    max-height: 50vh;
+  }
+
+  .textInput,
+  .encriptedMsg {
+    background-color: var(--color-b);
+    border-radius: 33px;
+    padding: 2rem;
+    max-height: 30vh;
+  }
+
+  textarea {
+    background-color: var(--color-b);
+    border: none;
+    outline: none;
+    color: var(--color-d);
+    font-family: var(--fuente-a);
+    font-size: large;
+    max-height: 30vh;
+  }
+
+  .mensajes {
+    background-image: url(/images/lock.png);
+    background-size: 100% 100%;
+  }
+}

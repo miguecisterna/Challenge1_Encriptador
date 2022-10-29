@@ -53,5 +53,5 @@ function copiar(){
     mensaje.value = "";
     mensaje.style.background = "#E09FA8;";
     mensaje.style.backgroundImage = "url('images/lock.png')";
-    mensaje.style.backgroundSize = "100%";
+    mensaje.style.backgroundSize = "100% 100%";
 }

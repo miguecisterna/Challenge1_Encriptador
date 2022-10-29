@@ -1,110 +1,109 @@
-:root{
-/*Paleta de colores: */
---color-a: #698694;
---color-b: #E09FA8;
---color-c: #B6D3E0;
---color-d: #E0DE9F;
---color-e: #949270;
+:root {
+  /*Paleta de colores: */
+  --color-a: #698694;
+  --color-b: #e09fa8;
+  --color-c: #b6d3e0;
+  --color-d: #e0de9f;
+  --color-e: #949270;
 
-/*Fuentes: */
---fuente-a: 'Righteous', cursive;
+  /*Fuentes: */
+  --fuente-a: "Righteous", cursive;
 }
 
-body{
-    background-color: var(--color-a);
+body {
+  background-color: var(--color-a);
 }
 
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: var(--color-d);
-    font-family: var(--fuente-a);
-    color: var(--color-e);
-    font-size: 1.5rem;
-    align-items: center;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--color-d);
+  font-family: var(--fuente-a);
+  color: var(--color-e);
+  font-size: 1.5rem;
+  align-items: center;
 }
 
-.logo_alura{
-    height: 2.5rem;
+.logo_alura {
+  height: 2.5rem;
 }
 
-.candado__logo{
-    height: 5rem;
+.candado__logo {
+  height: 5rem;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-section{
-    background-color: var(--color-d);
-    margin-top: 2rem;
-    padding: 2rem;
-    border-radius: 33px;
-    display: flex;
-    flex-direction: column;
+section {
+  background-color: var(--color-d);
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 33px;
+  display: flex;
+  flex-direction: column;
 }
 
-
-
-.textInput, .encriptedMsg{
-    background-color: var(--color-b);
-    border-radius: 33px;
-    padding: 2rem;
+.textInput,
+.encriptedMsg {
+  background-color: var(--color-b);
+  border-radius: 33px;
+  padding: 2rem;
 }
 
-textarea{
-    background-color: var(--color-b);
-    border: none;
-    outline: none;
-    color: var(--color-d);
-    font-family: var(--fuente-a);
-    font-size: large;
+textarea {
+  background-color: var(--color-b);
+  border: none;
+  outline: none;
+  color: var(--color-d);
+  font-family: var(--fuente-a);
+  font-size: large;
 }
 
-.mensajes{
-    background-image: url(/images/lock.png);
-    background-size: cover;
+.mensajes {
+  background-image: url(/images/lock.png);
+  background-size: cover;
 }
 
-.buttons{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1rem;
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
 }
 
-button{
-    background-color: var(--color-a);
-    border-radius: 33px;
-    border: none;
-    height: 4rem;
-    width: 40%;
+button {
+  background-color: var(--color-a);
+  border-radius: 33px;
+  border: none;
+  height: 4rem;
+  width: 40%;
 }
 
-footer{
-    display: flex;
-    flex-direction: column;
-    min-height: 20vh;
-    justify-content: center;
-    align-items: center;
+footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
+  justify-content: center;
+  align-items: center;
 }
 
-.social{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.social button img{
-    height: 2rem;
-    background-color: var(--color-d);
-    border-radius: 100%;
+.social button img {
+  height: 2rem;
+  background-color: var(--color-d);
+  border-radius: 100%;
 }
 
-p{
-    color: var(--color-d);
-    font-family: var(--fuente-a);
+p {
+  color: var(--color-d);
+  font-family: var(--fuente-a);
 }
